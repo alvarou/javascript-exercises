@@ -1,10 +1,8 @@
-const add = function() {
-	
-};
+//function to add two numbers
+const add = (num1, num2) => num1 + num2;
 
-const subtract = function() {
-	
-};
+//function to subtract two numbers
+const subtract = (num1, num2) => num1 - num2;
 
 const sum = function() {
 	
