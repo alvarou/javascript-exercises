@@ -1,4 +1,11 @@
-const reverseString = function() {
+const reverseString = function(string) {
+  
+    if (string === '') {
+    return '';
+  }
+  
+  //using recursion
+  return reverseString(string.substr(1)) + string[0];
 
 };
 
