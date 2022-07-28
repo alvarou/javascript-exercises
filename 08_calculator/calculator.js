@@ -20,8 +20,20 @@ const sum = (numbers) => {
   return total;
 };
 
-const multiply = function() {
+//arrow function to multiply an array of numbers
+const multiply = (numbers) => {
 
+  //initialize total to 1
+  let total = 1;
+
+  //loop through the array
+  for (let i = 0; i < numbers.length; i++) {
+    //multiply each number to the total
+    total *= numbers[i];
+  }
+
+  //return the total
+  return total;
 };
 
 const power = function() {
