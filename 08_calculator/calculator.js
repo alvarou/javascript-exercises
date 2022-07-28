@@ -36,8 +36,19 @@ const multiply = (numbers) => {
   return total;
 };
 
-const power = function() {
-	
+//arrow function to raise one number to the power of another number
+const power = (num1, num2) => {
+  //initialize total to 1
+  let total = 1;
+
+  //loop through the number of times the second number is raised to the power of the first number
+  for (let i = 0; i < num2; i++) {
+    //multiply the total by the first number
+    total *= num1;
+  }
+
+  //return the total
+  return total;
 };
 
 const factorial = function() {
