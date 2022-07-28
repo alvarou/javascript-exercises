@@ -4,8 +4,20 @@ const add = (num1, num2) => num1 + num2;
 //function to subtract two numbers
 const subtract = (num1, num2) => num1 - num2;
 
-const sum = function() {
-	
+//arrow function to sum an array of numbers
+const sum = (numbers) => {
+  
+  //initialize sum to 0
+  let total = 0;
+
+  //loop through the array
+  for (let i = 0; i < numbers.length; i++) {
+    //add each number to the total
+    total += numbers[i];
+  }
+
+  //return the total
+  return total;
 };
 
 const multiply = function() {
