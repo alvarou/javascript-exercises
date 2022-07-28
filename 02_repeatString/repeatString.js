@@ -5,7 +5,17 @@ function repeatString (string, number) {
   if (number === 0) {
     return '';
   }
-  return string + repeatString(string, number - 1);
+
+  //using recursion
+  //return string + repeatString(string, number - 1);
+
+  //using for loop
+  let result = '';
+  for (let i = 0; i < number; i++) {
+    result += string;
+  }
+  return result;
+  
 
 };
 
